@@ -80,7 +80,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/agneym/jc-viewer-json"
+    "url": "https://github.com/agneym/jc-viewer"
   },
   "bugs": {
     "url": "https://github.com/agneym/jc-viewer/issues"
