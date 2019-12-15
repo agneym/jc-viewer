@@ -1,6 +1,6 @@
 {
   "name": "@agney/jc-viewer",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "A JSON Tree based Viewer",
   "homepage": "https://jsoncrew.agney.dev",
   "author": "Agney Menon <agney@outlook.in>",
