@@ -24,7 +24,7 @@
     "test:bs": "karma start karma.bs.config.js --compatibility all --coverage",
     "build": "rimraf dist && rollup -c rollup.config.js",
     "start:build": "es-dev-server --app-index dist/index.html --open",
-    "release": "npm run build && np --no-yarn"
+    "release": "npm run build && np --no-yarn --no-tests"
   },
   "files": [
     "dist",
