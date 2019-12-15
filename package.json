@@ -49,6 +49,7 @@
     "np": "^5.2.1",
     "rimraf": "^3.0.0",
     "rollup": "^1.27.13",
+    "rollup-plugin-commonjs": "^10.1.0",
     "webpack-merge": "^4.2.2"
   },
   "eslintConfig": {
