@@ -2,15 +2,15 @@
 
 This webcomponent follows the [open-wc](https://github.com/open-wc/open-wc) recommendation.
 
-This is a starter template for plugin to be used with [JSON Crew](https://jsoncrew.agney.dev)
+This is a tree viewer for plugin to be used with [JSON Crew](https://jsoncrew.agney.dev)
 
 ## Usage
 ```html
 <script type="module">
-  import 'jc-json-utils/jc-json-utils.js';
+  import 'jc-viewer/jc-viewer.js';
 </script>
 
-<jc-json-utils data="{ thing: 1}"></jc-json-utils>
+<jc-viewer data="{ thing: 1}"></jc-viewer>
 ```
 
 ## Running the demo
