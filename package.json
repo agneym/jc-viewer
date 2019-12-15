@@ -5,8 +5,8 @@
   "homepage": "https://jsoncrew.agney.dev",
   "author": "Agney Menon <agney@outlook.in>",
   "license": "MIT",
-  "main": "jc-viewer.js",
-  "module": "jc-viewer.js",
+  "main": "dist/jc-viewer.js",
+  "module": "dist/jc-viewer.js",
   "scripts": {
     "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "start:compatibility": "es-dev-server --app-index demo/index.html --compatibility all --node-resolve --open --watch",
