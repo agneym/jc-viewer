@@ -25,11 +25,11 @@
     "test:bs": "karma start karma.bs.config.js --compatibility all --coverage",
     "build": "rimraf dist && rollup -c rollup.config.js",
     "start:build": "es-dev-server --app-index dist/index.html --open",
-    "release": "npm run build && np --no-yarn --no-tests"
+    "release": "np --no-yarn --no-tests"
   },
   "files": [
     "src",
-    "jc-viewer.js"
+    "dist"
   ],
   "dependencies": {
     "jsoneditor": "^8.0.0",
@@ -37,7 +37,7 @@
     "lit-html": "^1.1.2"
   },
   "devDependencies": {
-    "@open-wc/building-rollup": "^0.16.0",
+    "@open-wc/building-rollup": "^0.9.33",
     "@open-wc/eslint-config": "^2.0.1",
     "@open-wc/prettier-config": "^0.1.13",
     "@open-wc/testing": "^2.4.2",
