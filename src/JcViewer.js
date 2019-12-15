@@ -25,9 +25,16 @@ export class JcViewer extends LitElement {
   }
 
   render() {
-    return html`
-      <link rel="stylesheet" href="https://unpkg.com/jsoneditor@8.0.0/dist/jsoneditor.min.css" />
-      <div id="jc-viewer-tree-container"></div>
-    `;
+    return this.data
+      ? html`
+          <link
+            rel="stylesheet"
+            href="https://unpkg.com/jsoneditor@8.0.0/dist/jsoneditor.min.css"
+          />
+          <div id="jc-viewer-tree-container"></div>
+        `
+      : html`
+          <p>No data found</p>
+        `;
   }
 }
