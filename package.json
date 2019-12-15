@@ -1,7 +1,7 @@
 {
   "name": "@agney/jc-json-utils",
-  "version": "0.0.6",
-  "description": "A JSON utils test file",
+  "version": "0.0.1",
+  "description": "A JSON Tree based Viewer",
   "author": "Agney Menon <agney@outlook.in>",
   "license": "MIT",
   "main": "dist/jc-json-utils.js",
@@ -31,24 +31,25 @@
     "src"
   ],
   "dependencies": {
-    "lit-html": "^1.0.0",
-    "lit-element": "^2.0.1"
+    "jsoneditor": "^8.0.0",
+    "lit-element": "^2.2.1",
+    "lit-html": "^1.1.2"
   },
   "devDependencies": {
-    "@open-wc/building-rollup": "^0.9.33",
-    "@open-wc/eslint-config": "^1.0.0",
-    "@open-wc/prettier-config": "^0.1.10",
-    "@open-wc/testing": "^2.0.0",
-    "@open-wc/testing-karma": "^3.0.0",
-    "@open-wc/testing-karma-bs": "^1.0.0",
-    "es-dev-server": "^1.5.0",
-    "eslint": "^6.1.0",
-    "husky": "^1.0.0",
-    "lint-staged": "^8.0.0",
-    "np": "^5.1.0",
+    "@open-wc/building-rollup": "^0.16.0",
+    "@open-wc/eslint-config": "^2.0.1",
+    "@open-wc/prettier-config": "^0.1.13",
+    "@open-wc/testing": "^2.4.2",
+    "@open-wc/testing-karma": "^3.2.16",
+    "@open-wc/testing-karma-bs": "^1.3.16",
+    "es-dev-server": "^1.31.1",
+    "eslint": "^6.7.2",
+    "husky": "^3.1.0",
+    "lint-staged": "^9.5.0",
+    "np": "^5.2.1",
     "rimraf": "^3.0.0",
-    "rollup": "^1.22.0",
-    "webpack-merge": "^4.1.5"
+    "rollup": "^1.27.13",
+    "webpack-merge": "^4.2.2"
   },
   "eslintConfig": {
     "extends": [
