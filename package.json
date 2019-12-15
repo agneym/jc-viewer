@@ -2,6 +2,7 @@
   "name": "@agney/jc-viewer",
   "version": "0.0.2",
   "description": "A JSON Tree based Viewer",
+  "homepage": "https://jsoncrew.agney.dev",
   "author": "Agney Menon <agney@outlook.in>",
   "license": "MIT",
   "main": "dist/jc-json-utils.js",
@@ -70,5 +71,18 @@
       "prettier --write",
       "git add"
     ]
+  },
+  "keywords": [
+    "json-crew",
+    "plugin",
+    "viewer",
+    "jc-plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agneym/jc-viewer-json"
+  },
+  "bugs": {
+    "url": "https://github.com/agneym/jc-viewer/issues"
   }
 }
