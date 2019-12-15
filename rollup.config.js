@@ -6,14 +6,17 @@ import commonjs from 'rollup-plugin-commonjs';
 // import { createCompatibilityConfig } from '@open-wc/building-rollup';
 // export default createCompatibilityConfig({ input: './index.html' });
 
-const config = createDefaultConfig({
+const defaultConfig = createDefaultConfig({
   input: './index.html',
+  output: {
+    chunkFileNames: '[name].js',
+  },
   plugins: {
     workbox: false,
   },
 });
 
 export default {
-  ...config,
-  plugins: [...config.plugins, commonjs()],
+  ...defaultConfig,
+  plugins: [...defaultConfig.plugins, commonjs()],
 };

@@ -5,8 +5,8 @@
   "homepage": "https://jsoncrew.agney.dev",
   "author": "Agney Menon <agney@outlook.in>",
   "license": "MIT",
-  "main": "dist/jc-viewer.js",
-  "module": "dist/jc-viewer.js",
+  "main": "jc-viewer.js",
+  "module": "jc-viewer.js",
   "scripts": {
     "start": "es-dev-server --app-index demo/index.html --node-resolve --open --watch",
     "start:compatibility": "es-dev-server --app-index demo/index.html --compatibility all --node-resolve --open --watch",
@@ -28,8 +28,8 @@
     "release": "npm run build && np --no-yarn --no-tests"
   },
   "files": [
-    "dist",
-    "src"
+    "src",
+    "jc-viewer.js"
   ],
   "dependencies": {
     "jsoneditor": "^8.0.0",
